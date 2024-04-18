@@ -16,7 +16,7 @@ body
 }
 .SecondPageImageFormatting
 {
-    width:100%;
+    width:70%;
     border: 2px solid lightgray;
     margin-left: auto;
 }
@@ -78,4 +78,55 @@ nav ul li
     margin: 10px;
     padding-right: 30px;
     padding-left: 60px;
+}
+.columns {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.column {
+    text-align: center;
+    flex: 1; 
+    margin: 0 10px; 
+}
+.container {
+    background-image: url('../Images/background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    padding: 20px; 
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}footer nav ul li.current a {
+    font-weight: bold;
+}
+table {
+    color: darkgray;
+    border-collapse: separate;
+    border-spacing: 10px; 
+}
+
+th, td {
+    padding: 10px; 
+}
+.required {
+    color: red;
+    margin-left: 5px;
+}
+ul {
+    list-style-type: circle; 
+}
+.numbered-list {
+    list-style-type: decimal;
 }
