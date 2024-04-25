@@ -115,6 +115,7 @@ table {
     color: darkgray;
     border-collapse: separate;
     border-spacing: 10px; 
+    text-align: center;
 }
 
 th, td {
