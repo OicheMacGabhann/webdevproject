@@ -95,6 +95,7 @@ nav ul li
     background-position: center; 
     color: white; 
     padding: 20px; 
+    border: 1px black;
 }
 .video-container {
     position: relative;
@@ -112,14 +113,16 @@ nav ul li
     font-weight: bold;
 }
 table {
-    color: darkgray;
-    border-collapse: separate;
+    color: black;
+    border-collapse: collapse;
     border-spacing: 10px; 
+    border: 1px solid black;
     text-align: center;
 }
 
 th, td {
-    padding: 10px; 
+    padding: 10px;
+    border: 1px solid black; 
 }
 .required {
     color: red;
